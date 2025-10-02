@@ -25,10 +25,6 @@ public class Goal {
         return currentCalories >= targetCalories;
     }
 
-    public boolean isGoalAchieved() {
-        return currentCalories >= targetCalories;
-    }
-
     public String  getDescription() { return description; }
     public int getTargetCalories() { return targetCalories; }
     public int getCurrentCalories() { return currentCalories; }
